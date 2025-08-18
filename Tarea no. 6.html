@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Bootstrap</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>   
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Quien Soy?</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Estudios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lenguajes de Programación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-disabled="true">Hobbies</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-5">
+    <h2 class="text-center">Acerca de mi</h2>
+    <p class="text-center">Estudiante de Ingeniería en Sistemas en sexto semestre, con conocimientos en desarrollo de software, bases de datos y redes. Apasionado por la tecnología y en constante aprendizaje. Habilidades en programación, análisis de datos y administración de sistemas. Me considero una persona responsable, disciplinada y organizada.</p>
+    
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Información Personal
+            </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <ul class="list-group">
+                    <li class="list-group-item">Diego Santiago García Escobar</li>
+                    <li class="list-group-item">21 de diciembre de 2004</li>
+                    <li class="list-group-item">Guatemala, Ciudad de Guatemala</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Datos de Contacto
+            </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <ul class="list-group">
+                    <li class="list-group-item">garciadiego@umes.edu.gt</li>
+                    <li class="list-group-item">1234-5678</li>
+                    <li class="list-group-item">Mixco, Ciudad de Guatemala</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="mt-5">Preparación Academica</h3>
+    <div class="row mt-3">
+            <div class="col-md-6  col-xl-3">
+                <div class="card">
+                    <img src="img/siloe.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bachiller en Computación</h5>
+                        <p class="card-text">Bachillerato en Ciencias y letras con Orientación en Computación se lleva a cabo en el marco de una educación permanente que permite la continuidad de los estudios en el nivel superior. Los graduandos de esta carrera poseen los conocimientos en el uso de la tecnología.</p>
+                        <a href="#" class="btn btn-primary">Información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card">
+                    <img src="img/umes.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ingeniería en Sistemas</h5>
+                        <p class="card-text">Universidad Mesoamericana ofrece un programa basado en el desarrollo de competencias en las áreas de desarrollo de software, sistemas operativos, administración de bases de datos, redes informáticas, electrónica, auditoría de sistemas y administración de proyectos.</p>
+                        <a href="#" class="btn btn-primary">Información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card">
+                    <img src="img/europea.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ingles</h5>
+                        <p class="card-text">AE Virtual Class es una empresa especializada en la enseñanza de idiomas bajo la modalidad virtual, que forma parte del grupo Academia Europea, líder en la enseñanza de Idiomas y con más de 50 años de experiencia en todo el continente americano.</p>
+                        <a href="#" class="btn btn-primary">Información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card">
+                    <img src="img/direct.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ingles</h5>
+                        <p class="card-text">Método innovador e interactivo que enseña con un uso práctico del inglés. Direct English apoya el aprendizaje combinado; combinando la enseñanza experta en el aula y la enseñanza individual con recursos avanzados de aprendizaje digital.</p>
+                        <a href="#" class="btn btn-primary">Información</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <h3 class="mt-5">Lenguajes de Programación</h3>
+    <div class="row mt-3">
+            <div class="col-md-6 col-xl-3">
+                <div class="card">
+                    <img src="img/c.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">C#</h5>
+                        <p class="card-text">Lenguaje de programación creado por Microsoft, orientado a objetos, usado principalmente en aplicaciones de escritorio, videojuegos con Unity y desarrollo web en .NET.</p>
+                        <a href="#" class="btn btn-primary">Información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card">
+                    <img src="img/html.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">Lenguaje de marcado que define la estructura y el contenido de las páginas web.</p>
+                        <a href="#" class="btn btn-primary">Información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card">
+                    <img src="img/python.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">Lenguaje de programación interpretado, sencillo y versátil, muy usado en ciencia de datos, inteligencia artificial, automatización y desarrollo web.</p>
+                        <a href="#" class="btn btn-primary">Información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card">
+                    <img src="img/php.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PHP</h5>
+                        <p class="card-text">Lenguaje de programación del lado del servidor, muy utilizado en el desarrollo de páginas web dinámicas y sistemas como WordPress.</p>
+                        <a href="#" class="btn btn-primary">Información</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <h3 class="mt-5">Hobbies</h3>
+    <div id="carouselExampleCaptions" class="carousel slide mt-3">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="img/viajar.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Viajar</h5>
+                <p>Descubrir nuevos lugares, culturas y experiencias que amplían la perspectiva</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="img/musica.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Escuchar Música</h5>
+                <p>Un momento de conexión emocional y relajación a través del sonido</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="img/porsche.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Porsche Carrera 911</h5>
+                <p>Un ícono automovilístico que combina lujo, velocidad y diseño atemporal</p>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="mt-4 text-center">
+            <a href="Tarea no. 6 IA.html" class="btn btn-primary btn-lg ">Versión inteligencia artificial</a>
+        
+    </div>
+    
+</div>
+
+
+</body>
+</html>
