@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Perfil - Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">¿Quién Soy?</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#estudios">Estudios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#lenguajes">Lenguajes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Acerca de mí -->
+<section class="container my-5">
+  <h2 class="text-center mb-3">Acerca de mí</h2>
+  <p class="text-center lead">
+    Estudiante de Ingeniería en Sistemas apasionado por la tecnología. Me gusta el desarrollo de software, las bases de datos y las redes. Me considero disciplinado, organizado y siempre en constante aprendizaje.
+  </p>
+
+  <!-- Accordion -->
+  <div class="accordion" id="info">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#personal">
+          Información Personal
+        </button>
+      </h2>
+      <div id="personal" class="accordion-collapse collapse" data-bs-parent="#info">
+        <div class="accordion-body">
+          <ul class="list-group">
+            <li class="list-group-item">Diego Santiago García Escobar</li>
+            <li class="list-group-item">21 de diciembre de 2004</li>
+            <li class="list-group-item">Ciudad de Guatemala</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#contacto">
+          Datos de Contacto
+        </button>
+      </h2>
+      <div id="contacto" class="accordion-collapse collapse" data-bs-parent="#info">
+        <div class="accordion-body">
+          <ul class="list-group">
+            <li class="list-group-item">garciadiego@umes.edu.gt</li>
+            <li class="list-group-item">1234-5678</li>
+            <li class="list-group-item">Mixco, Guatemala</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Estudios -->
+<section id="estudios" class="container my-5">
+  <h3 class="mb-4">Preparación Académica</h3>
+  <div class="row g-4">
+    <div class="col-md-6 col-xl-3">
+      <div class="card h-100 shadow-sm">
+        <img src="img/siloe.jpg" class="card-img-top" alt="Bachiller en Computación">
+        <div class="card-body">
+          <h5 class="card-title">Bachiller en Computación</h5>
+          <p class="card-text">Formación en ciencias y letras con orientación en computación y uso de la tecnología.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-xl-3">
+      <div class="card h-100 shadow-sm">
+        <img src="img/umes.jpeg" class="card-img-top" alt="Ingeniería en Sistemas">
+        <div class="card-body">
+          <h5 class="card-title">Ingeniería en Sistemas</h5>
+          <p class="card-text">Enfoque en desarrollo de software, bases de datos, redes, auditoría y proyectos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-xl-3">
+      <div class="card h-100 shadow-sm">
+        <img src="img/europea.jpeg" class="card-img-top" alt="Inglés AE">
+        <div class="card-body">
+          <h5 class="card-title">Inglés - Academia Europea</h5>
+          <p class="card-text">Enseñanza virtual con más de 50 años de experiencia en el continente.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-xl-3">
+      <div class="card h-100 shadow-sm">
+        <img src="img/direct.jpg" class="card-img-top" alt="Inglés Direct English">
+        <div class="card-body">
+          <h5 class="card-title">Inglés - Direct English</h5>
+          <p class="card-text">Método práctico e interactivo que combina enseñanza presencial y digital.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Lenguajes -->
+<section id="lenguajes" class="container my-5">
+  <h3 class="mb-4">Lenguajes de Programación</h3>
+  <div class="row g-4">
+    <div class="col-md-6 col-xl-3">
+      <div class="card h-100 shadow-sm">
+        <img src="img/c.jpg" class="card-img-top" alt="C#">
+        <div class="card-body">
+          <h5 class="card-title">C#</h5>
+          <p class="card-text">Lenguaje orientado a objetos creado por Microsoft, usado en apps, videojuegos y web.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-xl-3">
+      <div class="card h-100 shadow-sm">
+        <img src="img/html.jpg" class="card-img-top" alt="HTML">
+        <div class="card-body">
+          <h5 class="card-title">HTML</h5>
+          <p class="card-text">Lenguaje de marcado para definir la estructura y contenido de páginas web.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-xl-3">
+      <div class="card h-100 shadow-sm">
+        <img src="img/python.jpeg" class="card-img-top" alt="Python">
+        <div class="card-body">
+          <h5 class="card-title">Python</h5>
+          <p class="card-text">Interpretado, sencillo y versátil; ideal para IA, automatización y web.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-xl-3">
+      <div class="card h-100 shadow-sm">
+        <img src="img/php.jpeg" class="card-img-top" alt="PHP">
+        <div class="card-body">
+          <h5 class="card-title">PHP</h5>
+          <p class="card-text">Lenguaje del lado servidor muy usado en sitios dinámicos y WordPress.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Hobbies -->
+<section id="hobbies" class="container my-5">
+  <h3 class="mb-4">Hobbies</h3>
+  <div id="carouselHobbies" class="carousel slide shadow rounded overflow-hidden">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselHobbies" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselHobbies" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselHobbies" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/viajar.jpg" class="d-block w-100" alt="Viajar">
+        <div class="carousel-caption bg-dark bg-opacity-50 rounded p-2">
+          <h5>Viajar</h5>
+          <p>Descubrir nuevos lugares, culturas y experiencias.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/musica.jpg" class="d-block w-100" alt="Música">
+        <div class="carousel-caption bg-dark bg-opacity-50 rounded p-2">
+          <h5>Escuchar Música</h5>
+          <p>Conexión emocional y relajación a través del sonido.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/porsche.jpg" class="d-block w-100" alt="Porsche 911">
+        <div class="carousel-caption bg-dark bg-opacity-50 rounded p-2">
+          <h5>Porsche 911</h5>
+          <p>Un ícono de velocidad, lujo y diseño atemporal.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselHobbies" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselHobbies" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+<!-- Botón final -->
+<div class="text-center my-5">
+    <a href="Tarea no. 6.html" class="btn btn-lg btn-primary">Versión creada por mi</a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
